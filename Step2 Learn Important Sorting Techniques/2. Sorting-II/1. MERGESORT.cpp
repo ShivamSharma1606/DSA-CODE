@@ -1,5 +1,12 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+using namespace std;
 
+//time complexity is o(nlogn) and space complexity is o(n)
+
+// merge function will merge the two sorted arrays
+// low to mid and mid+1 to high
+// and store the result in the original array
+// this will take o(n) time
 void merge(vector<int> &arr, int low, int mid, int high)
 {
 
@@ -37,6 +44,10 @@ void merge(vector<int> &arr, int low, int mid, int high)
     }
 }
 
+
+// it will divide the array into two parts
+// and call merge function to merge the two sorted arrays
+// this will take o(logn) time
 void mSort(vector<int> &arr, int low, int high)
 {
     if (low >= high)
@@ -59,6 +70,14 @@ void mergeSort(vector<int> &arr, int n)
 
 int main()
 {
+    vector<int> arr = {12, 11, 13, 5, 6, 7};
+    int n = arr.size();
+    mergeSort(arr, n);
+    // print the sorted array
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
 
     return 0;
 }

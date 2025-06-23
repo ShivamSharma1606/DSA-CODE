@@ -2,7 +2,7 @@
 
 
 //optimal approach 2
-
+//time complexity=O(n+m)*log(n + m) space complexity=O(1)
 #include <bits/stdc++.h>
 
 void mergeTwoSortedArraysWithoutExtraSpace(vector<long long> &a, vector<long long> &b){
@@ -12,6 +12,11 @@ void mergeTwoSortedArraysWithoutExtraSpace(vector<long long> &a, vector<long lon
 	int gap=(len/2)+(len%2);
 	// cout<<gap;
 
+	//tc of outer while loop=O(log(n+m))
+	//because gap is divided by 2 in each iteration
+	//so, gap=ceil(log(n+m))
+	//tc of inner while loop=O(n+m)
+	
 	while(gap>0){
 		int left=0;
 		int right=left+gap;

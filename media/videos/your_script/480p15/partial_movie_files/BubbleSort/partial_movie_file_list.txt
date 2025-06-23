@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/1185818338_1903564444_223132457.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/624642324_4217992463_617297139.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/624642324_920971701_3848059816.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/624642324_2513159928_1467058057.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/624642324_3476581719_3355362925.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/BubbleSort/624642324_2844360058_896424492.mp4'

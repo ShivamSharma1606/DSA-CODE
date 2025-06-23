@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/1185818338_1260145680_223132457.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_4217992463_940962717.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_2804346182_3610051776.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_3394500337_1014454108.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_62822569_1745845408.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_3394500337_3466368812.mp4'
+file 'file:D:/ALL _LEARNING/DSA STRIVER A TO Z/media/videos/your_script/480p15/partial_movie_files/FibonacciScene/624642324_2844360058_4265119100.mp4'

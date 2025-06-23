@@ -16,13 +16,12 @@ int upperBound(vector<int> &arr, int x, int n){
 	return ans;	
 }
 
-//shortcut method using c++ STL
-
-//give index
-//for array
-// int lb=upper_bound(arr,arr+n,target)-arr;
-//for vector
-// int lb=upper_bound(arr.begin(),arr.end(),target)-arr.begin();
+//! lower bound is first number which is greater than or equal to given number;
+//? CPP library function lower_bound does the same thing
+int lowerbound = lower_bound(arr.begin(), arr.end(), x) - arr.begin();
+int upperbound = upper_bound(arr.begin(), arr.end(), x) - arr.begin();
+//? lower_bound and upper_bound are inbuilt functions in C++ STL which are used to find the first element which is greater than or equal to the given element
+//?  and the first element which is greater than the given element respectively.
 
 int main(){
 

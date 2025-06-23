@@ -2,6 +2,8 @@
 #include<vector>
 
 //brute force approach
+//TC=O(N^2) AND SC=O(N^2)
+using namespace std;
 void rotateMatrix(vector<vector<int>> &mat){
 
 	int n=mat.size();
@@ -23,4 +25,18 @@ void rotateMatrix(vector<vector<int>> &mat){
 // SC = N^2 AND TC = N^2
 
 //OPTIMAL APPROACH
-//TC= N^2 AND SC=1
+//TC= 2(N*N) AND SC=1
+
+//first transpose the matrix and then reverse the rows
+void rotateMatrix(vector<vector<int>> &mat){
+	int n=mat.size();
+	for(int i=0;i<n;i++){
+		for(int j=i;j<n;j++){
+			swap(mat[i][j],mat[j][i]);
+		}
+	}
+
+	for(int i=0;i<n;i++){
+		reverse(mat[i].begin(),mat[i].end());
+	}
+}

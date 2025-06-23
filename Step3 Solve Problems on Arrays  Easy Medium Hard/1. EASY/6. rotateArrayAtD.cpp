@@ -34,6 +34,13 @@ void rotateArr(int arr[], int d, int n)
     reverse(arr + d, arr + n);
     reverse(arr, arr + n);
 }
+void rotateArrVector(vector<int> &arr, int d, int n)
+{
+    d = d % n;
+    reverse(arr.begin() + d, arr.end());
+    reverse(arr.begin(), arr.begin() + d);
+    reverse(arr.begin(), arr.end());
+}
 
 int main()
 {

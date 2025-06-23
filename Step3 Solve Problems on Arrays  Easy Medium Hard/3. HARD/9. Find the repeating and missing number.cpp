@@ -29,5 +29,7 @@ vector<int> findMissingRepeatingNumbers(vector < int > arr) {
     return {(int)x,(int)y};
 }   
 
-//OPTIMAL APPROACH 2 IS POSSIBLE IF BIT MANUPLATION WAS COMPLETE
+//OPTIMAL APPROACH 2 using bitwise operator
+
+
 

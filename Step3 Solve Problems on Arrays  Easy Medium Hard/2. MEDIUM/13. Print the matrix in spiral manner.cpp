@@ -1,5 +1,11 @@
 #include<bits/stdc++.h>
-//only this option is available 
+using namespace std;
+
+//only applicable for square matrix
+//modifiecation of code done for non square matrix
+//only approach to solve this problem
+
+//TC=O(N*M) AND SC=O(1)
 vector<int> spiralMatrix(vector<vector<int>>&arr) {
     vector<int> ans;
 
@@ -36,6 +42,13 @@ vector<int> spiralMatrix(vector<vector<int>>&arr) {
     
 }
 
+
+
 int main(){
-    
+    vector<vector<int>> arr={{1,2,3},{4,5,6},{7,8,9}};
+    vector<int> ans=spiralMatrix(arr);
+    for(auto x:ans){
+        cout<<x<<" ";
+    }
+    return 0;
 }
