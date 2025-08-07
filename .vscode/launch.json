@@ -5,10 +5,10 @@
       "name": "C++ Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/1_Root_to_Node_Path_in_Binary_Tree.exe",
+      "program": "${workspaceFolder}/Step7 Recursion/basic",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/Step7 Recursion",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
@@ -19,11 +19,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "build",
-      "miDebuggerPath": "C:/mingw/bin/gdb.exe",
-      "logging": {
-        "engineLogging": true
-      }
+      "preLaunchTask": "build"
     }
   ]
 }
