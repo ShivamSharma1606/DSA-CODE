@@ -66,6 +66,20 @@ bool isPalindrome(string &s, int start, int end){
 }
 
 //using single argument
+bool isPalindromeS(string s, int i){
+    // Base case: The middle of the string is reached
+    if(i >= s.length() / 2){
+        return true;
+    }
+
+    // Check if the characters at i and the symmetric position are the same
+    if(s[i] != s[s.length() - 1 - i]){
+        return false;
+    }
+
+    // Recursive call, returning the result
+    return isPalindrome(s, i + 1);
+}
 
 int main(){
     int n;

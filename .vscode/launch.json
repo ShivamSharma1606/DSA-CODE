@@ -5,7 +5,7 @@
       "name": "C++ Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/Step7 Recursion/basic",
+      "program": "${workspaceFolder}/Step7 Recursion",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}/Step7 Recursion",
