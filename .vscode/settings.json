@@ -3,7 +3,9 @@
         "vector": "cpp",
         "ostream": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "deque": "cpp",
+        "string": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
